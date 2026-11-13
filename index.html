@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rooted Nursery | Plants and garden care in Hyderabad</title>
+  <meta name="description" content="Rooted is a neighbourhood plant nursery in Hyderabad. Buy healthy plants, get garden care, or book a balcony makeover.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Rooted</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Plants that actually survive your balcony</h1>
+          <p>Rooted is a small nursery in Hyderabad. We sell healthy, locally grown plants and tell you honestly how much sun, water and patience each one needs.</p>
+          <div class="hero-buttons">
+            <a href="#services" class="btn btn-primary">See what we do</a>
+            <a href="#contact" class="btn btn-ghost">Talk to us</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 200 220" role="img">
+            <path d="M60 150h80l-10 60H70z" fill="#b5651d"/>
+            <rect x="52" y="140" width="96" height="16" rx="4" fill="#9c5314"/>
+            <path d="M100 140C100 90 100 60 100 20" stroke="#2f6b46" stroke-width="5" fill="none" stroke-linecap="round"/>
+            <path d="M100 110C70 110 45 90 40 60c32 0 58 20 60 50z" fill="#4c9a64"/>
+            <path d="M100 85c28 0 52-18 60-46-30-2-58 14-60 46z" fill="#6fb77f"/>
+            <path d="M100 55C80 52 62 38 58 14c24 0 40 14 42 41z" fill="#2f6b46"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div>
+          <h2>About us</h2>
+          <p>Rooted started in 2019 on a rooftop in Kondapur with about thirty pots and a lot of trial and error. Today we run a nursery on the city's west side and look after gardens for homes, cafés and small offices.</p>
+          <p>We only stock plants that do well in Hyderabad's heat and short monsoon. If something won't last in your space, we'll say so instead of selling it to you.</p>
+        </div>
+        <ul class="facts">
+          <li><strong>6 years</strong> growing in Hyderabad</li>
+          <li><strong>400+</strong> gardens and balconies cared for</li>
+          <li><strong>150</strong> plant varieties in stock</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section alt" id="services">
+      <div class="container">
+        <h2>Services</h2>
+        <p class="section-intro">Pick one, or mix them. Most customers start with a few plants and add garden care later.</p>
+        <div class="cards">
+          <article class="card">
+            <h3>Plants and pots</h3>
+            <p>Indoor, outdoor and low-light plants, repotted for you and ready to place. Free care card with every purchase.</p>
+            <button class="card-toggle" aria-expanded="false">More details</button>
+            <p class="card-more" hidden>Delivery within Hyderabad is free above ₹999. Every plant has a 14-day health guarantee.</p>
+          </article>
+          <article class="card">
+            <h3>Balcony makeovers</h3>
+            <p>We visit, measure the light, and set up a layout that suits your space and budget.</p>
+            <button class="card-toggle" aria-expanded="false">More details</button>
+            <p class="card-more" hidden>Site visit is free. Most balconies take one day to set up, including pots, soil and drip watering.</p>
+          </article>
+          <article class="card">
+            <h3>Monthly garden care</h3>
+            <p>A gardener visits twice a month to prune, feed, treat pests and refresh soil.</p>
+            <button class="card-toggle" aria-expanded="false">More details</button>
+            <p class="card-more" hidden>Plans start at ₹1,200 a month. Pause or cancel any time when you travel.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p>Tell us what you have in mind and we'll reply within one working day.</p>
+          <address>
+            Rooted Nursery<br>
+            Plot 14, Nursery Lane, Gachibowli<br>
+            Hyderabad, Telangana 500032<br><br>
+            <a href="tel:+919876543210">+91 98765 43210</a><br>
+            <a href="mailto:hello@rootednursery.example">hello@rootednursery.example</a><br><br>
+            Open daily, 8 am to 7 pm
+          </address>
+        </div>
+        <form id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+            <span class="error" id="nameError"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <span class="error" id="emailError"></span>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <span class="error" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Rooted Nursery. Made in Hyderabad.</p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
