@@ -31,16 +31,4 @@ script.js    menu, scroll highlighting, card toggles, form validation
 - The contact form does not send data anywhere; it validates input and shows a confirmation message.
 - Fonts (Bricolage Grotesque, DM Sans) load from Google Fonts. The page falls back to system fonts offline.
 
-## Screenshots
-All screenshots are in the `screenshots/` folder:
 
-| File | What it shows |
-|---|---|
-| `01-desktop-hero.png` | Desktop navbar and hero |
-| `02-desktop-full-page.png` | Full page on desktop |
-| `03-desktop-services-expanded.png` | Services with a card opened |
-| `04-desktop-form-validation.png` | Contact form error messages |
-| `05-tablet-full-page.png` | Full page at tablet width |
-| `06-mobile-hero.png` | Mobile hero |
-| `07-mobile-full-page.png` | Full page on mobile |
-| `08-mobile-menu-open.png` | Mobile hamburger menu open |
